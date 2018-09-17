@@ -7,6 +7,9 @@
   "author": "Sam Landfried <samlandfried@gmail.com>",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "start": "node src/index.js"
+  },
   "dependencies": {
     "express": "^4.16.3"
   }
