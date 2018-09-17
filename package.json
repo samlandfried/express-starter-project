@@ -1,0 +1,10 @@
+{
+  "name": "express-starter-project",
+  "version": "1.0.0",
+  "description": "A boilerplate project to kickstart development",
+  "main": "src/index.js",
+  "repository": "https://github.com/samlandfried/express-starter-project.git",
+  "author": "Sam Landfried <samlandfried@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
