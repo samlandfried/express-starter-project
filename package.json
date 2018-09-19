@@ -8,7 +8,9 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "dev": "babel-node src/index.js"
+    "dev": "babel-node src/index.js",
+    "test": "yarn mocha './test/**/*.spec.js' --require @babel/register",
+    "test:watch": "yarn test --watch"
   },
   "dependencies": {
     "express": "^4.16.3"
