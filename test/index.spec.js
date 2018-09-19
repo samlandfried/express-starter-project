@@ -1,11 +1,4 @@
 import server from 'src/api/server'
-import chai from 'chai'
-import sinon from 'sinon'
-import chaiSinon from 'chai-sinon'
-
-const { expect } = chai
-
-chai.use(chaiSinon)
 
 describe('index.js', () => {
   beforeEach(() => {

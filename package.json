@@ -9,7 +9,7 @@
   "private": false,
   "scripts": {
     "dev": "babel-node src/index.js",
-    "test": "yarn mocha './test/**/*.spec.js' --require @babel/register",
+    "test": "yarn mocha './test/**/*.spec.js' --require @babel/register --require test/test-loader",
     "test:watch": "yarn test --watch"
   },
   "dependencies": {
