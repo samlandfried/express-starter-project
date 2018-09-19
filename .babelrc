@@ -7,5 +7,14 @@
         }
       }
     ]
+  ],
+  "plugins": [
+    ["module-resolver", {
+      "root": ["./"],
+      "alias": {
+        "test": "./test",
+        "src": "./src"
+      }
+    }]
   ]
 }
