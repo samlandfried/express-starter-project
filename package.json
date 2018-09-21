@@ -8,7 +8,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "dev": "babel-node src/index.js",
+    "dev": "nodemon src/index.js --exec babel-node",
     "test": "yarn mocha './test/**/*.spec.js' --require @babel/register --require test/test-loader",
     "test:watch": "yarn test --watch"
   },
