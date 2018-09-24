@@ -16,5 +16,17 @@
         "src": "./src"
       }
     }]
-  ]
+  ],
+  "env": {
+    "test": {
+      "plugins": [
+        ["istanbul", {
+          "include": [
+            "src/**/*.js"
+          ],
+          "exclude": []
+        }]
+      ]
+    }
+  }
 }
