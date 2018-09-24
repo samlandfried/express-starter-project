@@ -24,7 +24,9 @@
           "include": [
             "src/**/*.js"
           ],
-          "exclude": []
+          "exclude": [
+            "src/index.js"
+          ]
         }]
       ]
     }
